@@ -1,162 +1,191 @@
 ﻿@font-face {
-	font-family: "PFDinCondensedRegular";
-	src: url("../fonts/PFDinCondensedRegular/PFDinCondensedRegular.eot");
-	src: url("../fonts/PFDinCondensedRegular/PFDinCondensedRegular.eot?#iefix")format("embedded-opentype"),
-	url("../fonts/PFDinCondensedRegular/PFDinCondensedRegular.woff") format("woff"),
-	url("../fonts/PFDinCondensedRegular/PFDinCondensedRegular.ttf") format("truetype");
-	font-style: normal;
-	font-weight: normal;
+    font-family: "PFDinCondensedRegular";
+    src: url("../fonts/PFDinCondensedRegular/PFDinCondensedRegular.eot");
+    src: url("../fonts/PFDinCondensedRegular/PFDinCondensedRegular.eot?#iefix")format("embedded-opentype"),
+        url("../fonts/PFDinCondensedRegular/PFDinCondensedRegular.woff") format("woff"),
+        url("../fonts/PFDinCondensedRegular/PFDinCondensedRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
 }
+
 @font-face {
     font-family: "PT Sans Regular";
     src: url('../fonts/PTSansRegular/PTSans-Regular.eot');
     src: url('../fonts/PTSansRegular/PTSans-Regular.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/PTSansRegular/PTSans-Regular.woff') format('woff'),
-    url('../fonts/PTSansRegular/PTSans-Regular.ttf') format('truetype');
+        url('../fonts/PTSansRegular/PTSans-Regular.woff') format('woff'),
+        url('../fonts/PTSansRegular/PTSans-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
-body{
-	margin: 0px;
-	padding: 0px;
-	background: #ffffff;
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background: #ffffff;
 }
-button, input, textarea{
-	outline: none;
+
+button,
+input,
+textarea {
+    outline: none;
 }
-#main{
-	width: 1003px;
-	max-width: 1003px;
-	height: 600px;
-	margin: 0 auto;
+
+#main {
+    width: 1003px;
+    max-width: 1003px;
+    height: 600px;
+    margin: 0 auto;
 }
-#main-left{
-	width: 723px;
-	height: auto;
-	float: left;
+
+#main-left {
+    width: 723px;
+    height: auto;
+    float: left;
 }
-#main-right{
-	width: 280px;
-	height: 1601px;
-	float: right;
+
+#main-right {
+    width: 280px;
+    height: 1601px;
+    float: right;
 }
-#center-mein-right{
-	width: 240px;
-	height: 1601px;
-	margin: 0 auto;
+
+#center-mein-right {
+    width: 240px;
+    height: 1601px;
+    margin: 0 auto;
 }
-#header{
-	width: 100%;
-	height: 135px;
-	float: left;
+
+#header {
+    width: 100%;
+    height: 135px;
+    float: left;
 }
-#header-logo{
-	width: 140px;
-	height: 135px;
-	float: left;
+
+#header-logo {
+    width: 140px;
+    height: 135px;
+    float: left;
 }
-#header-logo img{
-	margin-top: 31px;
+
+#header-logo img {
+    margin-top: 31px;
 }
-#header-menu{
-	width: 583px;
-	height: 135px;
-	float: right;
+
+#header-menu {
+    width: 583px;
+    height: 135px;
+    float: right;
 }
-#header-menu-top{
+
+#header-menu-top {
     width: 100%;
     height: 67.5px;
     float: left;
 }
-#header-menu-bottom{
+
+#header-menu-bottom {
     width: -webkit-fill-available;
     height: 67.5px;
     float: left;
     margin-left: 13px;
 }
-#menu-block{
-	width: 360px;
-	height: 42px;
-	float: left;
-	background: #ffffff;
-	margin-top: 22px;
-	margin-left: 13px;
-	-webkit-box-shadow: 0px 0px 5px -1px rgba(145,145,145,1);
-	-moz-box-shadow: 0px 0px 5px -1px rgba(145,145,145,1);
-	box-shadow: 0px 0px 5px -1px rgba(145,145,145,1);
+
+#menu-block {
+    width: 360px;
+    height: 42px;
+    float: left;
+    background: #ffffff;
+    margin-top: 22px;
+    margin-left: 13px;
+    -webkit-box-shadow: 0px 0px 5px -1px rgba(145, 145, 145, 1);
+    -moz-box-shadow: 0px 0px 5px -1px rgba(145, 145, 145, 1);
+    box-shadow: 0px 0px 5px -1px rgba(145, 145, 145, 1);
 }
-#menu-block ul{
-	width: fit-content;
-	margin: 0 auto;
-	margin-top: 16px;
-	padding-left: 0px;
+
+#menu-block ul {
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 16px;
+    padding-left: 0px;
 }
-#menu-block li{
-	list-style: none;
-	float: left;
-	margin-left: 7px;
-	margin-right: 7px;
-	margin-top: -5px;
+
+#menu-block li {
+    list-style: none;
+    float: left;
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-top: -5px;
 }
-#menu-block a{
-	color: #000000;
-	font-size: 14px;
-	font-family: "PT Sans Regular";
+
+#menu-block a {
+    color: #000000;
+    font-size: 14px;
+    font-family: "PT Sans Regular";
 }
-#menu-block img{
-	float: left;
+
+#menu-block img {
+    float: left;
     padding-right: 10px;
     margin-top: -2px;
 }
-#header-menu-bottom ul{
-	width: 100%;
+
+#header-menu-bottom ul {
+    width: 100%;
     float: left;
     padding-left: 0px;
     margin-top: 21px;
 }
-#header-menu-bottom li{
-	list-style: none;
-	float: left;
-	margin-left: 12.5px;
-	margin-right: 12.5px;
+
+#header-menu-bottom li {
+    list-style: none;
+    float: left;
+    margin-left: 12.5px;
+    margin-right: 12.5px;
 }
-#header-menu-bottom a{
-	color: #000000;
-	font-size: 16px;
-	font-family: "PT Sans Regular";
+
+#header-menu-bottom a {
+    color: #000000;
+    font-size: 16px;
+    font-family: "PT Sans Regular";
 }
-#carousel{
-	width: 723px;
-	height: auto;
-	float: left;
+
+#carousel {
+    width: 723px;
+    height: auto;
+    float: left;
 }
-#in-carousel{
-	width: 696px;
-	height: 400px;
-	float: right;
-	background-image: url('../images/slider/slid1.png');
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
+
+#in-carousel {
+    width: 696px;
+    height: 400px;
+    float: right;
+    background-image: url('../images/slider/slid1.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-#carousel-control{
-	width: fit-content;
+
+#carousel-control {
+    width: fit-content;
     margin: 0 auto;
     font-size: 9px;
     margin-top: 371px;
 }
-#carousel-control i{
-	margin-left: 5px;
-	margin-right: 5px;
-	color: #000000;
-	cursor: pointer;
-	position: relative;
+
+#carousel-control i {
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #000000;
+    cursor: pointer;
+    position: relative;
 }
-#carousel-control-active{
-	color: #ffffff !important;
+
+#carousel-control-active {
+    color: #ffffff !important;
 }
-#carousel-control button{
-	border: none;
+
+#carousel-control button {
+    border: none;
     background: transparent;
     float: right;
     margin-top: -5px;
@@ -164,9 +193,10 @@ button, input, textarea{
     height: 29px;
     cursor: pointer;
 }
-.carousel-date{
-	color: #ffffff;
-	font-family: "PT Sans Regular";
+
+.carousel-date {
+    color: #ffffff;
+    font-family: "PT Sans Regular";
     font-size: 19px;
     font-style: italic;
     position: relative;
@@ -174,79 +204,92 @@ button, input, textarea{
     margin-top: -3px;
     margin-left: 3px;
 }
-.slider-element{
-	margin-top: -77px;
-	width: 703px;
-	float: left;
+
+.slider-element {
+    margin-top: -77px;
+    width: 703px;
+    float: left;
 }
-#about-film{
-	width: 723px;
-	height: auto;
-	float: left;
+
+#about-film {
+    width: 723px;
+    height: auto;
+    float: left;
 }
-#in-about-film{
-	width: 696px;
-	height: auto;
-	float: right;
+
+#in-about-film {
+    width: 696px;
+    height: auto;
+    float: right;
 }
-#about-block{
-	width: 591px;
-	height: auto;
-	float: right;
-	margin-left: 105px;
+
+#about-block {
+    width: 591px;
+    height: auto;
+    float: right;
+    margin-left: 105px;
 }
-.about-info{
-	font-family: "PT Sans Regular";
-	font-size: 13px;
-	margin-top: 24px;
-	float: left;
-	border-bottom: 1px dotted;
-	width: fit-content;
+
+.about-info {
+    font-family: "PT Sans Regular";
+    font-size: 13px;
+    margin-top: 24px;
+    float: left;
+    border-bottom: 1px dotted;
+    width: fit-content;
 }
-.about-name{
-	float: left;
+
+.about-name {
+    float: left;
     width: -webkit-fill-available;
-	font-family: "PT Sans Regular";
+    font-family: "PT Sans Regular";
     font-weight: bold;
     font-size: 40px;
 }
-.about-text{
-	float: left;
+
+.about-text {
+    float: left;
     width: -webkit-fill-available;
-	font-size: 16px;
-	font-family: "PT Sans Regular";
+    font-size: 16px;
+    font-family: "PT Sans Regular";
 }
-.about-rejisor{
-	font-size: 14px;
-	float: left;
+
+.about-rejisor {
+    font-size: 14px;
+    float: left;
     width: -webkit-fill-available;
-	font-family: "PT Sans Regular";
+    font-family: "PT Sans Regular";
     margin-top: 18px;
 }
-.about-cikl{
-	font-size: 14px;
-	float: left;
+
+.about-cikl {
+    font-size: 14px;
+    float: left;
     width: -webkit-fill-available;
-	font-family: "PT Sans Regular";
+    font-family: "PT Sans Regular";
 }
-#about-parametrs{
-	width: fit-content;
+
+#about-parametrs {
+    width: fit-content;
     float: left;
     margin-top: 19px;
 }
-.about-parametrs-span{
-	font-size: 12px;
-	font-family: "PT Sans Regular";
-	color: #666666;
-	margin-left: 7px;
+
+.about-parametrs-span {
+    font-size: 12px;
+    font-family: "PT Sans Regular";
+    color: #666666;
+    margin-left: 7px;
 }
-.about-parametrs-span img{
-	margin-left: 20px;
+
+.about-parametrs-span img {
+    margin-left: 20px;
     float: right;
     margin-top: 4px;
 }
-.about-parametrs-span button{
-	border: none;
+
+.about-parametrs-span button {
+    border: none;
     background: #ffffff;
     float: right;
     margin-top: -5px;
@@ -254,41 +297,48 @@ button, input, textarea{
     height: 29px;
     cursor: pointer;
 }
-#event{
-	width: 723px;
-	height: auto;
-	float: left;
-}
-#in-event{
-	width: 696px;
-	height: auto;
-	float: right;
-}
-#in-event h4{
-	font-size: 30px;
-	color: #000000;
-	font-family: "PFDinCondensedRegular";
-	float: left;
-	width: 100%;
-	text-align: left;
-	height: 0px;
-}
-.hr{
-	margin-top: 0px;
+
+#event {
+    width: 723px;
+    height: auto;
     float: left;
 }
-#event-block{
-	width: 100%;
-	margin-top: 104px;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
+
+#in-event {
+    width: 696px;
+    height: auto;
+    float: right;
 }
-#event-item{
-	width: 200px;
+
+#in-event h4 {
+    font-size: 30px;
+    color: #000000;
+    font-family: "PFDinCondensedRegular";
+    float: left;
+    width: 100%;
+    text-align: left;
+    height: 0px;
 }
-.event-date{
-	font-family: "PT Sans Regular";
+
+.hr {
+    margin-top: 0px;
+    float: left;
+}
+
+#event-block {
+    width: 100%;
+    margin-top: 104px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#event-item {
+    width: 200px;
+}
+
+.event-date {
+    font-family: "PT Sans Regular";
     font-size: 17px;
     font-style: italic;
     position: relative;
@@ -297,55 +347,64 @@ button, input, textarea{
     padding-left: 0px;
     padding-right: 7px;
 }
-.event-time{
-	font-family: "PT Sans Regular";
+
+.event-time {
+    font-family: "PT Sans Regular";
     font-size: 17px;
     position: relative;
     color: #000000;
 }
-.event-afish{
-	width: 100%;
-	object-fit: cover;
+
+.event-afish {
+    width: 100%;
+    object-fit: cover;
 }
-.afish-element{
-	float: left;
+
+.afish-element {
+    float: left;
     margin-top: -124px;
     position: relative;
 }
-.event-info{
-	font-family: "PT Sans Regular";
+
+.event-info {
+    font-family: "PT Sans Regular";
     font-size: 13px;
     text-decoration: underline;
     margin-top: 20px;
     float: left;
 }
-.event-name{
-	margin-top: 13px;
+
+.event-name {
+    margin-top: 13px;
     float: left;
     color: black;
-	font-family: "PT Sans Regular";
+    font-family: "PT Sans Regular";
     font-weight: bold;
     font-size: 20px;
     line-height: 23px;
 }
-.event-text{
-	float: left;
+
+.event-text {
+    float: left;
     margin-top: 16px;
-	font-family: "PT Sans Regular";
+    font-family: "PT Sans Regular";
     font-size: 14px;
     cursor: pointer;
 }
-.event-text:hover{
-	text-decoration: underline;
+
+.event-text:hover {
+    text-decoration: underline;
 }
-.event-cikl{
-	float: left;
+
+.event-cikl {
+    float: left;
     margin-top: 13px;
     font-size: 14px;
-	font-family: "PT Sans Regular";
+    font-family: "PT Sans Regular";
 }
-#event-cikl button{
-	border: none;
+
+#event-cikl button {
+    border: none;
     background: #ffffff;
     float: left;
     margin-top: 0px;
@@ -353,104 +412,120 @@ button, input, textarea{
     left: -5px;
     cursor: pointer;
 }
-.event-share{
-	float: left;
+
+.event-share {
+    float: left;
     margin-top: 15px;
 }
-.all-event{
-	margin-top: 20px;
+
+.all-event {
+    margin-top: 20px;
     float: left;
     text-align: right;
     width: -webkit-fill-available;
-	font-family: "PT Sans Regular";
+    font-family: "PT Sans Regular";
     font-style: italic;
     color: #000000;
 }
-.all-event a{
-	color: #000000;
+
+.all-event a {
+    color: #000000;
 }
+
 /***/
-#diary{
-	width: 723px;
-	height: auto;
-	float: left;
-}
-#in-diary{
-	width: 696px;
-	height: auto;
-	float: right;
-}
-#in-diary h4{
-	font-size: 30px;
-	color: #000000;
-	font-family: "PFDinCondensedRegular";
-	float: left;
-	width: 100%;
-	text-align: left;
-	height: 0px;
-	margin-top: 23px;
-}
-.hr{
-	margin-top: 0px;
+#diary {
+    width: 723px;
+    height: auto;
     float: left;
 }
-#diary-block{
-	width: 100%;
-	margin-top: 0px;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
+
+#in-diary {
+    width: 696px;
+    height: auto;
+    float: right;
 }
-#diary-item{
-	width: 200px;
+
+#in-diary h4 {
+    font-size: 30px;
+    color: #000000;
+    font-family: "PFDinCondensedRegular";
+    float: left;
+    width: 100%;
+    text-align: left;
+    height: 0px;
+    margin-top: 23px;
 }
-.diary-name{
-	margin-top: 13px;
+
+.hr {
+    margin-top: 0px;
+    float: left;
+}
+
+#diary-block {
+    width: 100%;
+    margin-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#diary-item {
+    width: 200px;
+}
+
+.diary-name {
+    margin-top: 13px;
     float: left;
     color: black;
-	font-family: "PT Sans Regular";
+    font-family: "PT Sans Regular";
     font-weight: bold;
     font-size: 20px;
     line-height: 23px;
 }
-.diary-text{
-	float: left;
+
+.diary-text {
+    float: left;
     margin-top: 5px;
-	font-family: "PT Sans Regular";
+    font-family: "PT Sans Regular";
     font-size: 14px;
     cursor: pointer;
 }
-.diary-text:hover{
-	text-decoration: underline;
+
+.diary-text:hover {
+    text-decoration: underline;
 }
-.all-diary{
-	margin-top: 20px;
+
+.all-diary {
+    margin-top: 20px;
     float: left;
     text-align: right;
     width: -webkit-fill-available;
-	font-family: "PT Sans Regular";
+    font-family: "PT Sans Regular";
     font-style: italic;
     color: #000000;
 }
-.all-diary a{
-	color: #000000;
+
+.all-diary a {
+    color: #000000;
 }
 
-#search-form{
-	width: 100%;
-	height: 29px;
-	float: left;
-	margin-top: 31px;
+#search-form {
+    width: 100%;
+    height: 29px;
+    float: left;
+    margin-top: 31px;
 }
-#search-form input{
-   width: 100%;
-   height: 29px;
-   background: #e4e4e4;
-   border: none;
-   text-align: center;
+
+#search-form input {
+    width: 100%;
+    height: 29px;
+    background: #e4e4e4;
+    border: none;
+    text-align: center;
 }
-#search-form button{
-	border: none;
+
+#search-form button {
+    border: none;
     background: #e4e4e4;
     float: right;
     margin-top: -31px;
@@ -458,51 +533,58 @@ button, input, textarea{
     height: 29px;
     cursor: pointer;
 }
-.main-right-section{
-	font-family: "PFDinCondensedRegular";
-	color: black;
-	font-size: 24px;
-	text-align: center;
-	float: left;
-	width: 100%;
-	margin-top: 70px;
-	height: 0px;
+
+.main-right-section {
+    font-family: "PFDinCondensedRegular";
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    float: left;
+    width: 100%;
+    margin-top: 70px;
+    height: 0px;
 }
-.partner_logo{
-	margin: 0 auto;
-	margin-top: 13px;
-	cursor: pointer;
+
+.partner_logo {
+    margin: 0 auto;
+    margin-top: 13px;
+    cursor: pointer;
 }
-.partner_logo:nth-child(1){
-	margin-top: 24px;
+
+.partner_logo:nth-child(1) {
+    margin-top: 24px;
 }
 
 
-#calendar{
-	width: 100%;
-	height: auto;
-	margin-top: 113px;
+#calendar {
+    width: 100%;
+    height: auto;
+    margin-top: 113px;
 }
-#calendar_section{
+
+#calendar_section {
     margin-top: 0px;
 }
-#calendar-month{
-	width: 200px;
-	display: flex;
-	margin: 0 auto;
-	margin-top: 13px;
+
+#calendar-month {
+    width: 200px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 13px;
 }
-#calendar-month span{
-	font-family: "PT Sans Regular";
-	color: #000000;
-	font-size: 13px;
-	text-align: center;
-	width: 100%;
-	float: left;
-	text-transform: uppercase;
+
+#calendar-month span {
+    font-family: "PT Sans Regular";
+    color: #000000;
+    font-size: 13px;
+    text-align: center;
+    width: 100%;
+    float: left;
+    text-transform: uppercase;
 }
-#calendar-month button{
-	border: none;
+
+#calendar-month button {
+    border: none;
     background: transparent;
     float: right;
     margin-top: -5px;
@@ -510,145 +592,164 @@ button, input, textarea{
     height: 29px;
     cursor: pointer;
 }
-#calendar-day{
-	width: 200px;
-	margin: 0 auto;
-	margin-top: 14px;
+
+#calendar-day {
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 14px;
 }
-#calendar-day button{
-	height: 22px;
-	width: 22px;
-	border: 1px solid #cccccc;
-	background: #cccccc;
-	cursor: pointer;
-	border-radius: 38px;
-	font-size: 9px;
-	margin-left: 1.5px;
-	margin-right: 1.5px;
-	margin-top: 9px;
-	text-align: center;
+
+#calendar-day button {
+    height: 22px;
+    width: 22px;
+    border: 1px solid #cccccc;
+    background: #cccccc;
+    cursor: pointer;
+    border-radius: 38px;
+    font-size: 9px;
+    margin-left: 1.5px;
+    margin-right: 1.5px;
+    margin-top: 9px;
+    text-align: center;
 }
-#calendar-day button:nth-child(1){
-   margin-left: 31px;
+
+#calendar-day button:nth-child(1) {
+    margin-left: 31px;
 }
-#calendar-day button:nth-child(3){
-   border: 1px solid #000000;
+
+#calendar-day button:nth-child(3) {
+    border: 1px solid #000000;
 }
-#calendar-day button:nth-child(8){
-   border: 1px solid #000000;
+
+#calendar-day button:nth-child(8) {
+    border: 1px solid #000000;
 }
-#calendar-day button:nth-child(9){
-   border: 1px solid #000000;
+
+#calendar-day button:nth-child(9) {
+    border: 1px solid #000000;
 }
-#calendar-day button:nth-child(11){
-   border: 1px solid #000000;
+
+#calendar-day button:nth-child(11) {
+    border: 1px solid #000000;
 }
-#calendar-day button:nth-child(13){
-   border: 1px solid #000000;
+
+#calendar-day button:nth-child(13) {
+    border: 1px solid #000000;
 }
-#calendar-day button:nth-child(18){
-   border: 1px solid #000000;
+
+#calendar-day button:nth-child(18) {
+    border: 1px solid #000000;
 }
-#calendar-day button:nth-child(22){
-   border: 1px solid #000000;
+
+#calendar-day button:nth-child(22) {
+    border: 1px solid #000000;
 }
-#calendar-day button:nth-child(24){
-   border: 1px solid #000000;
+
+#calendar-day button:nth-child(24) {
+    border: 1px solid #000000;
 }
-#calendar-day button:nth-child(28){
-   border: 1px solid #000000;
+
+#calendar-day button:nth-child(28) {
+    border: 1px solid #000000;
 }
-#calendar-day button:nth-child(30){
-   border: 1px solid #000000;
+
+#calendar-day button:nth-child(30) {
+    border: 1px solid #000000;
 }
-#calendar-day button:nth-child(31){
-   border: 1px solid #000000;
+
+#calendar-day button:nth-child(31) {
+    border: 1px solid #000000;
 }
-#facebook{
-	width: 100%;
+
+#facebook {
+    width: 100%;
     margin-top: 43px;
 }
+
 /*
 #facebook img{
 	width: 100%;
 }
 */
-#footer{
-	width: 100%;
-	height: 187px;
-	background: #000000; 
-	float: left;
-	margin-top: 25px;
-}
-#footer-center{
-	width: 1003px;
-	max-width: 1003px;
-	height: auto;
-	margin: 0 auto;
-}
-#footer p{
-	color: #ffffff;
-	float: left;
-	font-size: 12px;
-	margin-top: 16px;
-	font-family: "PT Sans Regular";
-}
-.switch {
-  position: relative;
-  display: inline-block;
-  width: 42px;
-  height: 21px;
+#footer {
+    width: 100%;
+    height: 187px;
+    background: #000000;
+    float: left;
+    margin-top: 25px;
 }
 
-.switch input { 
-  opacity: 0;
-  width: 0;
-  height: 0;
+#footer-center {
+    width: 1003px;
+    max-width: 1003px;
+    height: auto;
+    margin: 0 auto;
+}
+
+#footer p {
+    color: #ffffff;
+    float: left;
+    font-size: 12px;
+    margin-top: 16px;
+    font-family: "PT Sans Regular";
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 42px;
+    height: 21px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
 }
 
 .slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #000;
-  -webkit-transition: .4s;
-  transition: .4s;
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000;
+    -webkit-transition: .4s;
+    transition: .4s;
 }
 
 .slider:before {
-  position: absolute;
-  content: "";
-  height: 13px;
-  width: 13px;
-  left: 3px;
-  bottom: 4px;
-  background-color: white;
-  -webkit-transition: .4s;
-  transition: .4s;
+    position: absolute;
+    content: "";
+    height: 13px;
+    width: 13px;
+    left: 3px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
 }
 
-input:checked + .slider {
-  background-color: #6f6f6f;
+input:checked+.slider {
+    background-color: #6f6f6f;
 }
 
-input:focus + .slider {
-  box-shadow: 0 0 1px #6f6f6f;
+input:focus+.slider {
+    box-shadow: 0 0 1px #6f6f6f;
 }
 
-input:checked + .slider:before {
-  -webkit-transform: translateX(23px);
-  -ms-transform: translateX(26px);
-  transform: translateX(23px);
+input:checked+.slider:before {
+    -webkit-transform: translateX(23px);
+    -ms-transform: translateX(26px);
+    transform: translateX(23px);
 }
 
 /* Rounded sliders */
 .slider.round {
-  border-radius: 34px;
+    border-radius: 34px;
 }
 
 .slider.round:before {
-  border-radius: 50%;
+    border-radius: 50%;
 }
